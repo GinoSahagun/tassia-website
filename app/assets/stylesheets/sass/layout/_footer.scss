@@ -1,0 +1,38 @@
+
+@import "../helpers/variables";
+
+footer {
+  background: $secondary-color;
+  padding: 2rem 2rem 2rem 0;
+
+  h2{
+    color: white;
+
+  }
+
+  p{
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  ul{
+    li {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+}
+
+
+.copy-write{
+  padding: 2rem 0;
+  text-align: center;
+  background: darken($secondary-color, 10%);
+
+}
+.wpb_wrapper{
+  margin: auto;
+  p{
+    margin: auto;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

@@ -1,0 +1,42 @@
+
+@import '../helpers/helpers';
+/* Cards Layout */
+
+
+.card-wrapper{
+  display: flex;
+  text-align: center;
+
+  .card {
+    width: 20%;
+    transition: all 0.3s linear;
+    border: 1px solid;
+    border-color: rgba(24,211,224,1);
+
+    &:hover{
+      background-color: rgba(24,211,224,0.9);
+      color: white;
+    }
+
+    /*media Query for Desktops, Tablets, and Phone for .cards*/
+    @include phone{
+      width: 100%;
+    }
+    @include tablet{
+      width: 100%;
+    }
+
+  }
+
+  /*media Query for Desktops, Tablets, and Phone for .cards-wrapper */
+  @include phone{
+    flex-direction: column;
+  }
+  @include tablet{
+    flex-direction: column;
+  }
+  @include desktop{
+    flex-direction: row;
+  }
+}
+

@@ -1,0 +1,9 @@
+@import "../helpers/_helpers";
+
+* {
+  @include font-source-sans(18px);
+}
+
+nav {
+  font-size: 18px;
+}
